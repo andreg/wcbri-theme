@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// Local libraries.
+//
+// This file imports common configuration variables for spacing, colors and
+// fonts, as well as site-wide used mixins.
+// -----------------------------------------------------------------------------
+
+// Stylesheet configuration.
+@import "config";
+
+// Globally-awailable mixins.
+@import "mixins";

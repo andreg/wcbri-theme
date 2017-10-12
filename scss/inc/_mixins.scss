@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// Globally-awailable mixins.
+//
+// This file is defines a set of utilities and mixins that are used website-wide.
+// -----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// A mixin that outputs a media query.
+//
+// Usage:
+// 		@import media( "tablet" );
+//
+// For more details about breakpoints definition, see the _config.scss file.
+//
+// @param {String} $breakpoint The breakpoint identification string.
+// -----------------------------------------------------------------------------
+@mixin media( $breakpoint ) {
+	$media_query_breakpoint: map-get( $breakpoints, $breakpoint );
+
+	@if $media_query_breakpoint {
+		@media #{$media_query_breakpoint} {
+			@content;
+		}
+	}
+}

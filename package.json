@@ -1,0 +1,18 @@
+{
+  "name": "wordcamp-bari-2018",
+  "version": "1.0.0",
+  "description": "CSS file used for the WordCamp Bari 2018 website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPL-2.0",
+  "dependencies": {
+    "gulp": "",
+    "gulp-sass": ""
+  },
+  "devDependencies": {
+    "gulp-rename": "^1.2.2"
+  }
+}
