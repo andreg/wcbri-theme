@@ -1,3 +1,116 @@
 /* -----------------------------------------------------------------------------
- * Module title
+ * Home header
+ * -------------------------------------------------------------------------- */
+
+.custom-header-media{
+  background: url(http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2017/11/featured-bg.jpg);
+  background-attachment: fixed;
+  &:before {
+    display:none;
+  }
+
+  .wp-custom-header{
+
+    img{
+      display: none;
+    }
+
+  }
+
+}
+
+.site-branding{
+  margin-bottom: 72px !important;
+  margin: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+
+  .wrap {
+    background-color: white;
+    border-radius: 100%;
+    padding: 6% 10%;
+
+    .custom-logo-link {
+      padding: 0;
+      &:hover {
+       opacity: 1;
+       transform: rotate(-5deg) scale(1.05);
+     }
+
+      img {
+        max-width: 300px !important;
+        max-height: 100% !important;
+      }
+
+    }
+
+  }
+
+
+
+}
+
+/* -----------------------------------------------------------------------------
+ * Main navigation
+ * -------------------------------------------------------------------------- */
+.navigation-top{
+  background-color: $blue;
+  font-size: 20px;
+
+  .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+    #site-navigation{
+      @include media( "tablet" ) {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .menu-main-container {
+    background-color: $blue;
+
+    #top-menu{
+      background-color: $blue;
+      .menu-item{
+        a {
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          &:hover {
+            background-color: darken($blue, 10%);
+          }
+        }
+        &.current-menu-item {
+          a {
+            background-color: darken($blue, 10%);
+          }
+        }
+        &.ticket-menu {
+          margin-left: 4rem;
+          a {
+            padding: .4em 1.25em;
+            background-color: darken($yellow, 5%);
+            border-radius: 100px;
+            text-transform: none;
+            &:hover {
+              background-color: $yellow;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .menu-scroll-down {
+    display: none;
+  }
+
+}
+
+
+/* -----------------------------------------------------------------------------
+ * Home page
  * -------------------------------------------------------------------------- */

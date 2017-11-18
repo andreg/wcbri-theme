@@ -9,6 +9,125 @@
  * @andg, @antotrifiroconaccento, @thomasvitale, @valeria-ruggiero and the
  * amazing WordCamp Bari 2018 organizers team.
  */
+html, body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+* {
+  transition: all .25s ease-in-out !important;
+}
+
 /* -----------------------------------------------------------------------------
- * Module title
+ * Home header
+ * -------------------------------------------------------------------------- */
+.custom-header-media {
+  background: url(http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2017/11/featured-bg.jpg);
+  background-attachment: fixed;
+}
+
+.custom-header-media:before {
+  display: none;
+}
+
+.custom-header-media .wp-custom-header img {
+  display: none;
+}
+
+.site-branding {
+  margin-bottom: 72px !important;
+  margin: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.site-branding .wrap {
+  background-color: white;
+  border-radius: 100%;
+  padding: 6% 10%;
+}
+
+.site-branding .wrap .custom-logo-link {
+  padding: 0;
+}
+
+.site-branding .wrap .custom-logo-link:hover {
+  opacity: 1;
+  transform: rotate(-5deg) scale(1.05);
+}
+
+.site-branding .wrap .custom-logo-link img {
+  max-width: 300px !important;
+  max-height: 100% !important;
+}
+
+/* -----------------------------------------------------------------------------
+ * Main navigation
+ * -------------------------------------------------------------------------- */
+.navigation-top {
+  background-color: #00b9ed;
+  font-size: 20px;
+}
+
+.navigation-top .wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 48em) {
+  .navigation-top .wrap #site-navigation {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.navigation-top .menu-main-container {
+  background-color: #00b9ed;
+}
+
+.navigation-top .menu-main-container #top-menu {
+  background-color: #00b9ed;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item a {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item a:hover {
+  background-color: #0091ba;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item.current-menu-item a {
+  background-color: #0091ba;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item.ticket-menu {
+  margin-left: 4rem;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item.ticket-menu a {
+  padding: .4em 1.25em;
+  background-color: #e6a200;
+  border-radius: 100px;
+  text-transform: none;
+}
+
+.navigation-top .menu-main-container #top-menu .menu-item.ticket-menu a:hover {
+  background-color: #ffb400;
+}
+
+.navigation-top .menu-scroll-down {
+  display: none;
+}
+
+/* -----------------------------------------------------------------------------
+ * Home page
  * -------------------------------------------------------------------------- */
