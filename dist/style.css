@@ -11,12 +11,26 @@
  */
 html, body {
   font-family: 'Titillium Web', sans-serif;
+  font-size: 21px;
+  line-height: 1.4;
+  color: #727272;
 }
 
 h1,
 h2,
 h3 {
   font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+h2 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+strong {
+  font-weight: 600;
+  color: #f32d3e;
 }
 
 * {
@@ -27,7 +41,7 @@ h3 {
  * Home header
  * -------------------------------------------------------------------------- */
 .custom-header-media {
-  background: url(http://2014.new-site.wordcamp.dev/wp-content/uploads/sites/45/2017/11/featured-bg.jpg);
+  background: url(https://2018.bari.wordcamp.org/files/2017/11/featured-bg-2.jpg);
   background-attachment: fixed;
 }
 
@@ -115,7 +129,7 @@ h3 {
 
 .navigation-top .menu-main-container #top-menu .menu-item.ticket-menu a {
   padding: .4em 1.25em;
-  background-color: #e6a200;
+  background-color: #FF7F00;
   border-radius: 100px;
   text-transform: none;
 }
@@ -129,5 +143,101 @@ h3 {
 }
 
 /* -----------------------------------------------------------------------------
+ * Pages
+ * -------------------------------------------------------------------------- */
+header.entry-header,
+.entry-content {
+  float: none !important;
+  width: 100% !important;
+}
+
+/* -----------------------------------------------------------------------------
  * Home page
  * -------------------------------------------------------------------------- */
+.home-page main > article > .panel-content > .wrap {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+.home-page header.entry-header {
+  display: none;
+}
+
+.home-page .row {
+  padding: 94px 0;
+  text-align: center;
+}
+
+.home-page .row .wrap {
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+
+.home-page .row .wcbri-btn {
+  margin-top: 46px;
+}
+
+.home-page .row-1 h2 {
+  color: #f32d3e;
+}
+
+.home-page .row-2 {
+  background-color: #00b9ed;
+}
+
+.home-page .row-2 h2,
+.home-page .row-2 p {
+  color: white;
+}
+
+.home-page .row-2 .wcbri-btn {
+  background-color: white;
+  color: #00b9ed;
+}
+
+.home-page .row-2 .wcbri-btn:hover {
+  background-color: #00b9ed;
+  color: white;
+}
+
+.home-page .row-3 {
+  background: url("https://2018.bari.wordcamp.org/files/2017/11/cozze-pattern-bg_Tavola-disegno-1.jpg");
+  background-attachment: fixed;
+}
+
+.home-page .row-4 {
+  background-color: #ffb400;
+}
+
+.home-page .row-5 {
+  background: url("https://2018.bari.wordcamp.org/files/2017/11/pesci-rossi-pattern-bg.jpg");
+  background-attachment: fixed;
+}
+
+.home-page .row-6 h2 {
+  color: #f32d3e;
+}
+
+/* -----------------------------------------------------------------------------
+ * Buttons
+ * -------------------------------------------------------------------------- */
+.wcbri-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background-color: #f32d3e;
+  padding: 13px 28px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: none !important;
+}
+
+.wcbri-btn:hover {
+  box-shadow: none !important;
+  color: white !important;
+  background-color: #f44554;
+}

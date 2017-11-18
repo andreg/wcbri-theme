@@ -20,6 +20,7 @@ $breakpoints: (
 $blue: #00b9ed;
 $red: #f32d3e;
 $yellow: #ffb400;
+$black: #727272;
 
 
 // -----------------------------------------------------------------------------
@@ -29,13 +30,31 @@ $yellow: #ffb400;
 // font-family: 'Gloria Hallelujah', cursive;
 html,body {
 	font-family: 'Titillium Web', sans-serif;
+	font-size: 21px;
+	line-height: 1.4;
+	color: $black;
 }
 
+// -----------------------------------------------------------------------------
+// Typography
+// -----------------------------------------------------------------------------
 h1,
 h2,
 h3 {
 	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
 }
+
+h2 {
+	font-size: 48px;
+	text-transform: uppercase;
+}
+
+strong {
+	font-weight: 600;
+	color: $red;
+}
+
 
 // -----------------------------------------------------------------------------
 // Misc

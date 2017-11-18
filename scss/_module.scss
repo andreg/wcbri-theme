@@ -92,7 +92,7 @@
           margin-left: 4rem;
           a {
             padding: .4em 1.25em;
-            background-color: darken($yellow, 5%);
+            background-color: #FF7F00;
             border-radius: 100px;
             text-transform: none;
             &:hover {
@@ -110,7 +110,122 @@
 
 }
 
+/* -----------------------------------------------------------------------------
+ * Pages
+ * -------------------------------------------------------------------------- */
+header.entry-header,
+.entry-content {
+  float: none !important;
+  width: 100% !important;
+}
 
 /* -----------------------------------------------------------------------------
  * Home page
  * -------------------------------------------------------------------------- */
+.home-page {
+
+  main > article > .panel-content > .wrap {
+    padding: 0;
+    margin: 0;
+    max-width: 100%
+  }
+
+  header.entry-header{
+    display: none;
+  }
+
+  .row {
+    padding: 94px 0;
+    text-align: center;
+    .wrap {
+      padding-top: 0;
+      padding-bottom: 0;
+      margin: 0 auto;
+    }
+    .wcbri-btn {
+      margin-top: 46px;
+    }
+  }
+
+  .row-1 {
+
+    h2{
+      color: $red;
+    }
+
+  }
+
+  .row-2 {
+
+    background-color: $blue;
+
+    h2,
+    p {
+      color: white;
+    }
+
+    .wcbri-btn {
+      background-color: white;
+      color: $blue;
+      &:hover {
+        background-color: $blue;
+        color: white;
+      }
+    }
+
+  }
+
+  .row-3 {
+    background: url('https://2018.bari.wordcamp.org/files/2017/11/cozze-pattern-bg_Tavola-disegno-1.jpg');
+    background-attachment: fixed;
+  }
+
+  .row-4 {
+
+    background-color: $yellow;
+
+    h2,
+    p {
+      // color: white;
+    }
+
+  }
+
+  .row-5 {
+    background: url('https://2018.bari.wordcamp.org/files/2017/11/pesci-rossi-pattern-bg.jpg');
+    background-attachment: fixed;
+  }
+
+  .row-6{
+    h2 {
+      color: $red;
+    }
+  }
+
+}
+
+/* -----------------------------------------------------------------------------
+ * Buttons
+ * -------------------------------------------------------------------------- */
+.wcbri-btn {
+
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background-color: $red;
+  padding: 13px 28px;
+  border: none;
+  border-radius: 100px;
+  box-shadow: none !important;
+
+  &:hover {
+
+    box-shadow: none !important;
+    color: white !important;
+    background-color: lighten($red, 5%);
+
+  }
+
+}
