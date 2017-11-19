@@ -111,6 +111,101 @@
 }
 
 /* -----------------------------------------------------------------------------
+ * Footer
+ * -------------------------------------------------------------------------- */
+ #colophon {
+    border: none;
+    background-color: #0082C7;
+
+   &:before {
+    content: '';
+    background: white url('https://2018.bari.wordcamp.org/files/2017/11/footer-img_Tavola-disegno-1.png') center bottom no-repeat;
+    display: block;
+    height: 85px;
+    padding-left: 3em;
+    padding-right: 3em;
+   }
+
+    &>.wrap{
+      display: flex;
+      align-items: flex-start;
+
+      .widget-area {
+        padding: 0;
+        margin: 0;
+
+        .footer-widget-1{
+
+          width: 100%;
+
+          .widget_custom_html {
+            margin-bottom: 0;
+            text-align: center;
+
+            .widget-title {
+              font-family: 'Titillium Web', sans-serif;
+              text-transform: none;
+              color: white;
+              font-size: 18px;
+              font-weight: normal;
+            }
+
+            .custom-html-widget {
+              display: flex;
+              justify-content: center;
+
+              a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 40px;
+                width: 40px;
+                text-decoration: none;
+                border: 1px solid white;
+                color: white;
+                border-radius: 100%;
+                box-shadow: none;
+                margin-right: 10px;
+                &:last-child {
+                  margin-right: 0;
+                }
+                &:hover {
+                  color: $yellow;
+                  border-color: $yellow;
+                  box-shadow: none;
+                }
+              }
+
+            }
+
+          }
+
+        }
+      }
+
+      .site-info {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        color: white;
+
+        a {
+          font-size: 18px;
+          color: white;
+          &:hover {
+            color: $yellow;
+            box-shadow: inset 0 0 0 rgba(0, 0, 0, 0), 0 3px 0 $yellow;
+          }
+        }
+
+      }
+
+    }
+
+ }
+
+/* -----------------------------------------------------------------------------
  * Pages
  * -------------------------------------------------------------------------- */
 header.entry-header,

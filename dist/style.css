@@ -143,6 +143,97 @@ strong {
 }
 
 /* -----------------------------------------------------------------------------
+ * Footer
+ * -------------------------------------------------------------------------- */
+#colophon {
+  border: none;
+  background-color: #0082C7;
+}
+
+#colophon:before {
+  content: '';
+  background: white url("https://2018.bari.wordcamp.org/files/2017/11/footer-img_Tavola-disegno-1.png") center bottom no-repeat;
+  display: block;
+  height: 85px;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#colophon > .wrap {
+  display: flex;
+  align-items: flex-start;
+}
+
+#colophon > .wrap .widget-area {
+  padding: 0;
+  margin: 0;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 {
+  width: 100%;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html .widget-title {
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: none;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html .custom-html-widget {
+  display: flex;
+  justify-content: center;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html .custom-html-widget a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 100%;
+  box-shadow: none;
+  margin-right: 10px;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html .custom-html-widget a:last-child {
+  margin-right: 0;
+}
+
+#colophon > .wrap .widget-area .footer-widget-1 .widget_custom_html .custom-html-widget a:hover {
+  color: #ffb400;
+  border-color: #ffb400;
+  box-shadow: none;
+}
+
+#colophon > .wrap .site-info {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+#colophon > .wrap .site-info a {
+  font-size: 18px;
+  color: white;
+}
+
+#colophon > .wrap .site-info a:hover {
+  color: #ffb400;
+  box-shadow: inset 0 0 0 transparent, 0 3px 0 #ffb400;
+}
+
+/* -----------------------------------------------------------------------------
  * Pages
  * -------------------------------------------------------------------------- */
 header.entry-header,
