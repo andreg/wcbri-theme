@@ -13,6 +13,7 @@
     "gulp-sass": ""
   },
   "devDependencies": {
-    "gulp-rename": "^1.2.2",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2"
   }
 }
