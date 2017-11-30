@@ -276,6 +276,7 @@ header.entry-header,
 
 .home .row-2 {
   background-color: #00b9ed;
+  background: url("https://2018.bari.wordcamp.org/files/2017/11/pesci-onde-pattern_Tavola-disegno-1.png");
 }
 
 .home .row-2 h2,
@@ -300,6 +301,11 @@ header.entry-header,
 
 .home .row-4 {
   background-color: #ffb400;
+}
+
+.home .row-4 h2,
+.home .row-4 p {
+  color: #3e3e3e;
 }
 
 .home .row-5 {
