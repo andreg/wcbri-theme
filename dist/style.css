@@ -242,6 +242,19 @@ header.entry-header,
   width: 100% !important;
 }
 
+.single-post .entry-title,
+.page .entry-title {
+  color: #f32d3e;
+  text-align: left;
+}
+
+/* -----------------------------------------------------------------------------
+ * Sidebar & Widgets
+ * -------------------------------------------------------------------------- */
+h2.widget-title {
+  color: #00b9ed;
+}
+
 /* -----------------------------------------------------------------------------
  * Home page
  * -------------------------------------------------------------------------- */
@@ -335,6 +348,16 @@ header.entry-header,
 
 .wcbri-btn:hover {
   box-shadow: none !important;
+  color: white !important;
+  background-color: #f44554;
+}
+
+button {
+  background-color: #f32d3e;
+  color: white;
+}
+
+button:hover {
   color: white !important;
   background-color: #f44554;
 }

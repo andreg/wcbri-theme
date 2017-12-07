@@ -214,6 +214,20 @@ header.entry-header,
   width: 100% !important;
 }
 
+.single-post .entry-title,
+.page .entry-title {
+  color: $red;
+  text-align: left;
+}
+
+/* -----------------------------------------------------------------------------
+ * Sidebar & Widgets
+ * -------------------------------------------------------------------------- */
+h2.widget-title {
+  color: $blue;
+}
+
+
 /* -----------------------------------------------------------------------------
  * Home page
  * -------------------------------------------------------------------------- */
@@ -322,6 +336,17 @@ header.entry-header,
     color: white !important;
     background-color: lighten($red, 5%);
 
+  }
+
+}
+
+button {
+  background-color: $red;
+  color: white;
+
+  &:hover {
+    color: white !important;
+    background-color: lighten($red, 5%);
   }
 
 }
