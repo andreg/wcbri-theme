@@ -46,9 +46,24 @@ h3 {
 	text-align: center;
 }
 
-h2 {
-	font-size: 48px;
+h1 {
+	font-size: 2.5rem;
 	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 2.3rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+}
+
+li h3 {
+	font-size: 1.375rem;
+	text-align: left;
 }
 
 strong {
