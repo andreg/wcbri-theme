@@ -98,6 +98,15 @@ strong {
   max-height: 100% !important;
 }
 
+.site-branding .wrap .site-branding-text .site-description {
+  color: #f32d3e;
+  clip: auto;
+  opacity: 1;
+  left: 50%;
+  font-family: 'Gloria Hallelujah', cursive;
+  transform: translateX(-50%);
+}
+
 /* -----------------------------------------------------------------------------
  * Main navigation
  * -------------------------------------------------------------------------- */

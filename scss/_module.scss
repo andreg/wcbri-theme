@@ -45,6 +45,19 @@
 
     }
 
+    .site-branding-text {
+
+      .site-description {
+        color: $red;
+        clip: auto;
+        opacity: 1;
+        left: 50%;
+        font-family: 'Gloria Hallelujah', cursive;
+        transform: translateX(-50%);
+      }
+
+    }
+
   }
 
 
