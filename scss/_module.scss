@@ -39,8 +39,11 @@
      }
 
       img {
-        max-width: 300px !important;
+        // max-width: 300px !important;
         max-height: 100% !important;
+        @media all and (min-width: 769px){
+          max-width: 300px !important;
+        }
       }
 
     }
