@@ -96,12 +96,6 @@ strong {
   max-height: 100% !important;
 }
 
-@media all and (min-width: 769px) {
-  .site-branding .wrap .custom-logo-link img {
-    max-width: 300px !important;
-  }
-}
-
 .site-branding .wrap .site-branding-text .site-description {
   color: #f32d3e;
   clip: auto;
