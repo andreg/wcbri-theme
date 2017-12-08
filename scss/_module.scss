@@ -127,7 +127,7 @@
  * -------------------------------------------------------------------------- */
  #colophon {
     border: none;
-    background-color: #0082C7;
+    background-color: $darkblue;
 
    &:before {
     content: '';
@@ -200,7 +200,7 @@
       .site-info {
         @media all and (min-width: 769px) {
           width: 50%;
-        }        
+        }
         padding: 0;
         margin: 0;
         text-align: center;
@@ -259,7 +259,7 @@ header.entry-header,
  * Sidebar & Widgets
  * -------------------------------------------------------------------------- */
 h2.widget-title {
-  color: $blue;
+  color: $darkblue;
 }
 
 
