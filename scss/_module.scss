@@ -139,8 +139,10 @@
    }
 
     &>.wrap{
-      display: flex;
-      align-items: flex-start;
+      @media all and (min-width: 769px){
+        display: flex;
+        align-items: flex-start;
+      }
 
       .widget-area {
         padding: 0;
@@ -196,7 +198,9 @@
       }
 
       .site-info {
-        width: 50%;
+        @media all and (min-width: 769px) {
+          width: 50%;
+        }        
         padding: 0;
         margin: 0;
         text-align: center;

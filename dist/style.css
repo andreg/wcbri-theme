@@ -204,9 +204,11 @@ strong {
   padding-right: 3em;
 }
 
-#colophon > .wrap {
-  display: flex;
-  align-items: flex-start;
+@media all and (min-width: 769px) {
+  #colophon > .wrap {
+    display: flex;
+    align-items: flex-start;
+  }
 }
 
 #colophon > .wrap .widget-area {
@@ -261,11 +263,16 @@ strong {
 }
 
 #colophon > .wrap .site-info {
-  width: 50%;
   padding: 0;
   margin: 0;
   text-align: center;
   color: white;
+}
+
+@media all and (min-width: 769px) {
+  #colophon > .wrap .site-info {
+    width: 50%;
+  }
 }
 
 #colophon > .wrap .site-info a {
