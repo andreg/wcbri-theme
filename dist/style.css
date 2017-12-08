@@ -28,14 +28,32 @@ h1 {
   text-transform: uppercase;
 }
 
+@media all and (max-width: 425px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
 h2 {
   font-size: 2.3rem;
   text-transform: uppercase;
 }
 
+@media all and (max-width: 425px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+
 h3 {
   font-size: 1.8rem;
   text-transform: uppercase;
+}
+
+@media all and (max-width: 425px) {
+  h3 {
+    font-size: 1.15rem;
+  }
 }
 
 li h3 {
@@ -282,7 +300,6 @@ header.entry-header,
 
 .entry-title a:hover {
   box-shadow: none;
-  color: #f65d6a;
   text-decoration: underline;
 }
 
