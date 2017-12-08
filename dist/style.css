@@ -310,6 +310,13 @@ header.entry-header,
   font-size: 2.5rem;
 }
 
+@media all and (max-width: 425px) {
+  .page .panel-content .entry-title,
+  .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    font-size: 1.5rem;
+  }
+}
+
 /* -----------------------------------------------------------------------------
  * Sidebar & Widgets
  * -------------------------------------------------------------------------- */

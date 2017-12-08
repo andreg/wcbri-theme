@@ -246,6 +246,9 @@ header.entry-header,
   color: $red;
   text-align: left;
   font-size: 2.5rem;
+  @media all and (max-width: 425px) {
+		font-size: 1.5rem;
+	}
 }
 
 /* -----------------------------------------------------------------------------
