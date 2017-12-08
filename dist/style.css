@@ -306,6 +306,7 @@ header.entry-header,
 }
 
 .entry-title a:hover {
+  color: #e00d1f;
   box-shadow: none;
   text-decoration: underline;
 }

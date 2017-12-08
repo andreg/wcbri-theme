@@ -240,6 +240,7 @@ header.entry-header,
   color: $red;
   box-shadow: none;
   &:hover {
+    color: darken($red, 10%);
     box-shadow: none;
     text-decoration: underline;
   }
