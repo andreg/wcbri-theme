@@ -227,10 +227,19 @@ header.entry-header,
 }
 
 .single-post .entry-title,
-.page .entry-title,
-.entry-title a {
+.page .entry-title {
   color: $red;
   text-align: left;
+}
+
+.entry-title a {
+  color: $red;
+  box-shadow: none;
+  &:hover {
+    box-shadow: none;
+    color: lighten($red, 10%);
+    text-decoration: underline;
+  }
 }
 
 .page .panel-content .entry-title,
@@ -260,7 +269,7 @@ h2.widget-title {
   }
 
   header.entry-header{
-    display: none;
+    // display: none; //uncomment when real home page will be online
   }
 
   .row {

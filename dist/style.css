@@ -270,10 +270,20 @@ header.entry-header,
 }
 
 .single-post .entry-title,
-.page .entry-title,
-.entry-title a {
+.page .entry-title {
   color: #f32d3e;
   text-align: left;
+}
+
+.entry-title a {
+  color: #f32d3e;
+  box-shadow: none;
+}
+
+.entry-title a:hover {
+  box-shadow: none;
+  color: #f65d6a;
+  text-decoration: underline;
 }
 
 .page .panel-content .entry-title,
@@ -297,10 +307,6 @@ h2.widget-title {
   padding: 0;
   margin: 0;
   max-width: 100%;
-}
-
-.home header.entry-header {
-  display: none;
 }
 
 .home .row {
