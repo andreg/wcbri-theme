@@ -39,11 +39,7 @@
      }
 
       img {
-        // max-width: 300px !important;
         max-height: 100% !important;
-        // @media all and (min-width: 769px){
-        //   max-width: 300px !important;
-        // }
       }
 
     }
@@ -231,7 +227,8 @@ header.entry-header,
 }
 
 .single-post .entry-title,
-.page .entry-title {
+.page .entry-title,
+.entry-title a {
   color: $red;
   text-align: left;
 }

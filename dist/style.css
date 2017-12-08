@@ -20,6 +20,7 @@ h1,
 h2,
 h3 {
   font-family: 'Gloria Hallelujah', cursive;
+  color: #f32d3e;
 }
 
 h1 {
@@ -269,7 +270,8 @@ header.entry-header,
 }
 
 .single-post .entry-title,
-.page .entry-title {
+.page .entry-title,
+.entry-title a {
   color: #f32d3e;
   text-align: left;
 }
