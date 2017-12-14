@@ -75,6 +75,21 @@ strong {
 /* -----------------------------------------------------------------------------
  * Home header
  * -------------------------------------------------------------------------- */
+@media screen and (min-width: 48em) {
+  .twentyseventeen-front-page.has-header-image .custom-header-media,
+  .twentyseventeen-front-page.has-header-video .custom-header-media,
+  .home.blog.has-header-image .custom-header-media,
+  .home.blog.has-header-video .custom-header-media {
+    height: 80vh;
+  }
+  .admin-bar.twentyseventeen-front-page.has-header-image .custom-header-media,
+  .admin-bar.twentyseventeen-front-page.has-header-video .custom-header-media,
+  .admin-bar.home.blog.has-header-image .custom-header-media,
+  .admin-bar.home.blog.has-header-video .custom-header-media {
+    height: calc(80vh - 32px);
+  }
+}
+
 .custom-header-media {
   background: url(https://2018.bari.wordcamp.org/files/2017/11/featured-bg-2.jpg);
   background-attachment: fixed;
