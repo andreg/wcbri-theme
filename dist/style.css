@@ -131,13 +131,7 @@ strong {
 }
 
 .site-branding .wrap .site-branding-text .site-description {
-  color: #f32d3e;
-  clip: auto;
-  opacity: 1;
-  left: 50%;
-  font-family: 'Gloria Hallelujah', cursive;
-  transform: translateX(-50%);
-  font-weight: bold;
+  display: none;
 }
 
 /* -----------------------------------------------------------------------------
