@@ -267,6 +267,15 @@ header.entry-header,
 	}
 }
 
+h2#en-divider {
+  font-size: 1.8rem;
+  color: white;
+  background-color: $darkblue;
+  line-height: 1;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
 /* -----------------------------------------------------------------------------
  * Sidebar & Widgets
  * -------------------------------------------------------------------------- */
