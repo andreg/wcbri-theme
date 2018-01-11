@@ -460,3 +460,14 @@ button:hover {
   color: white !important;
   background-color: #f44554;
 }
+
+/* -----------------------------------------------------------------------------
+ * Tickets
+ * -------------------------------------------------------------------------- */
+.tix_tickets_table tr {
+  border-bottom-color: #d8d8d8;
+}
+
+.tix_tickets_table tr td {
+  padding: 0.8em 0.4em;
+}
