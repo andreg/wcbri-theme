@@ -376,6 +376,10 @@ h2.widget-title {
   max-width: 100%;
 }
 
+.home header.entry-header {
+  display: none;
+}
+
 .home .row {
   padding: 94px 0;
   text-align: center;
