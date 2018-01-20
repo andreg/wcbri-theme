@@ -64,6 +64,10 @@ h2 {
 	@media all and (max-width: 425px) {
 		font-size: 1.3rem;
 	}
+
+	.home.blog & {
+		font-size: 1.4rem;
+	}
 }
 
 h3 {

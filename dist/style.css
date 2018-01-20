@@ -47,6 +47,10 @@ h2 {
   }
 }
 
+.home.blog h2 {
+  font-size: 1.4rem;
+}
+
 h3 {
   font-size: 1.8rem;
   text-transform: uppercase;
