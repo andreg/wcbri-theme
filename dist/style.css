@@ -503,3 +503,13 @@ button:hover {
 .tix_tickets_table tr td {
   padding: 0.8em 0.4em;
 }
+
+/* -----------------------------------------------------------------------------
+ * Misc
+ * -------------------------------------------------------------------------- */
+@media screen and (min-width: 48em) {
+  .wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
