@@ -507,9 +507,23 @@ button:hover {
 /* -----------------------------------------------------------------------------
  * Misc
  * -------------------------------------------------------------------------- */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 67em) {
   .wrap {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+.wcfd-disabled-form #wcorg-login-message {
+  margin: 1.4em;
+}
+
+.wcfd-disabled-form #wcorg-login-message strong {
+  color: #3e3e3e;
+}
+
+@media screen and (min-width: 470px) {
+  .wcfd-disabled-form #wcorg-login-message {
+    margin: 1.4em;
   }
 }
