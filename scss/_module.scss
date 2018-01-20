@@ -245,6 +245,10 @@ header.entry-header,
 .page .entry-title {
   color: $red;
   text-align: left;
+
+  @media screen and (min-width: 48em) {
+    font-size: 3rem;
+  }
 }
 
 .entry-title a {
@@ -375,6 +379,21 @@ h2.widget-title {
     }
   }
 
+}
+
+/* -----------------------------------------------------------------------------
+ * Navigation
+ * -------------------------------------------------------------------------- */
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+  left: 0;
+}
+
+.navigation-top .menu-main-container #top-menu .sub-menu .menu-item a {
+  color: inherit;
+
+  &:hover {
+    color: #fff;
+  }
 }
 
 /* -----------------------------------------------------------------------------

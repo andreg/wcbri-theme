@@ -35,8 +35,10 @@ h1 {
 }
 
 h2 {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
+  letter-spacing: -2px;
+  padding-top: 1em;
 }
 
 @media all and (max-width: 425px) {
@@ -309,6 +311,13 @@ header.entry-header,
   text-align: left;
 }
 
+@media screen and (min-width: 48em) {
+  .single-post .entry-title,
+  .page .entry-title {
+    font-size: 3rem;
+  }
+}
+
 .entry-title a {
   color: #f32d3e;
   box-shadow: none;
@@ -427,6 +436,21 @@ h2.widget-title {
 
 .home .row-6 h2 {
   color: #f32d3e;
+}
+
+/* -----------------------------------------------------------------------------
+ * Navigation
+ * -------------------------------------------------------------------------- */
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
+  left: 0;
+}
+
+.navigation-top .menu-main-container #top-menu .sub-menu .menu-item a {
+  color: inherit;
+}
+
+.navigation-top .menu-main-container #top-menu .sub-menu .menu-item a:hover {
+  color: #fff;
 }
 
 /* -----------------------------------------------------------------------------
