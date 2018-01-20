@@ -519,7 +519,7 @@ button:hover {
 }
 
 .wcfd-disabled-form #wcorg-login-message strong {
-  color: #3e3e3e;
+  color: white;
 }
 
 @media screen and (min-width: 470px) {
