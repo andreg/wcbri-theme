@@ -347,6 +347,16 @@ header.entry-header,
   }
 }
 
+.entry-content h2 {
+  color: #666;
+  font-size: 1.6rem;
+}
+
+.entry-content h3 {
+  color: #666;
+  font-size: 1.4rem;
+}
+
 h2#en-divider {
   font-size: 1.8rem;
   color: white;
