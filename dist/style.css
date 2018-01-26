@@ -409,6 +409,7 @@ h2.widget-title {
 
 .home .row h2 {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .home .row-1 h2 {
