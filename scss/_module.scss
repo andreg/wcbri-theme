@@ -108,7 +108,8 @@
           }
         }
         &.current-menu-item {
-          a {
+          > a {
+            color: white;
             background-color: #0c91de;
           }
         }

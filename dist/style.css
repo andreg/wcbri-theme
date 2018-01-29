@@ -178,7 +178,8 @@ strong {
   background-color: #0c91de;
 }
 
-.navigation-top .menu-main-container #top-menu .menu-item.current-menu-item a {
+.navigation-top .menu-main-container #top-menu .menu-item.current-menu-item > a {
+  color: white;
   background-color: #0c91de;
 }
 
