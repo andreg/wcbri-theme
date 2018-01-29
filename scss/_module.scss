@@ -360,7 +360,7 @@ h2.widget-title {
       border: 1px solid white;
       &:hover {
         background-color: $blue;
-        color: white;
+        color: white !important;
         border: 1px solid white;
       }
     }
