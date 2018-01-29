@@ -429,6 +429,7 @@ h2.widget-title {
 .home .row-2 .wcbri-btn {
   background-color: white;
   color: #00b9ed;
+  border: 1px solid white;
 }
 
 .home .row-2 .wcbri-btn:hover {
@@ -493,7 +494,7 @@ h2.widget-title {
 
 .wcbri-btn:hover {
   box-shadow: none !important;
-  color: #f32d3e;
+  color: #f32d3e !important;
   background-color: white;
 }
 
