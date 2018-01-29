@@ -104,12 +104,12 @@
           text-transform: uppercase;
           text-align: center;
           &:hover {
-            background-color: darken($blue, 10%);
+            background-color: #0c91de;
           }
         }
         &.current-menu-item {
           a {
-            background-color: darken($blue, 10%);
+            background-color: #0c91de;
           }
         }
         &.ticket-menu {
@@ -360,6 +360,7 @@ h2.widget-title {
       &:hover {
         background-color: $blue;
         color: white;
+        border: 1px solid white;
       }
     }
 
@@ -428,8 +429,8 @@ h2.widget-title {
   &:hover {
 
     box-shadow: none !important;
-    color: white !important;
-    background-color: lighten($red, 5%);
+    color: $red;
+    background-color: white;
 
   }
 

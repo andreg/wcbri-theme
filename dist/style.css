@@ -175,11 +175,11 @@ strong {
 }
 
 .navigation-top .menu-main-container #top-menu .menu-item a:hover {
-  background-color: #0091ba;
+  background-color: #0c91de;
 }
 
 .navigation-top .menu-main-container #top-menu .menu-item.current-menu-item a {
-  background-color: #0091ba;
+  background-color: #0c91de;
 }
 
 .navigation-top .menu-main-container #top-menu .menu-item.ticket-menu {
@@ -434,6 +434,7 @@ h2.widget-title {
 .home .row-2 .wcbri-btn:hover {
   background-color: #00b9ed;
   color: white;
+  border: 1px solid white;
 }
 
 .home .row-3 {
@@ -492,8 +493,8 @@ h2.widget-title {
 
 .wcbri-btn:hover {
   box-shadow: none !important;
-  color: white !important;
-  background-color: #f44554;
+  color: #f32d3e;
+  background-color: white;
 }
 
 button {
