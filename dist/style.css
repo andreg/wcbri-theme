@@ -470,11 +470,15 @@ h2.widget-title {
 }
 
 .navigation-top .menu-main-container #top-menu .sub-menu .menu-item a {
-  color: white;
+  color: inherit;
 }
 
 .navigation-top .menu-main-container #top-menu .sub-menu .menu-item a:hover {
   color: #fff;
+}
+
+.navigation-top .menu-main-container #top-menu .sub-menu .menu-item.current-menu-item > a {
+  color: white;
 }
 
 /* -----------------------------------------------------------------------------
