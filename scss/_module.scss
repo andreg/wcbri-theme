@@ -276,6 +276,7 @@ header.entry-header,
   color: #666;
   font-size: 1.6rem;
   text-transform: none;
+  letter-spacing: 2px;
 }
 
 .entry-content h3 {
@@ -466,6 +467,17 @@ button {
   }
 
 }
+
+/* -----------------------------------------------------------------------------
+ * Organizers
+ * -------------------------------------------------------------------------- */
+.wcorg-organizer-description {
+  img {
+    float: left;
+    margin-right: 1rem;
+  }
+}
+
 
 /* -----------------------------------------------------------------------------
  * Misc

@@ -352,6 +352,7 @@ header.entry-header,
   color: #666;
   font-size: 1.6rem;
   text-transform: none;
+  letter-spacing: 2px;
 }
 
 .entry-content h3 {
@@ -522,6 +523,14 @@ button:hover {
 
 .tix_tickets_table tr td {
   padding: 0.8em 0.4em;
+}
+
+/* -----------------------------------------------------------------------------
+ * Organizers
+ * -------------------------------------------------------------------------- */
+.wcorg-organizer-description img {
+  float: left;
+  margin-right: 1rem;
 }
 
 /* -----------------------------------------------------------------------------
