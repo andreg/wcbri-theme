@@ -528,6 +528,10 @@ button:hover {
 /* -----------------------------------------------------------------------------
  * Organizers
  * -------------------------------------------------------------------------- */
+.wcorg-organizer {
+  margin-bottom: 3.5rem;
+}
+
 .wcorg-organizer-description img {
   float: left;
   margin-right: 1rem;
