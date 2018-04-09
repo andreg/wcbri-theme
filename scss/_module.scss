@@ -396,6 +396,23 @@ h2.widget-title {
     }
   }
 
+  #panel1 {
+    .panel-content > .wrap {
+    	max-width: 740px;
+    	margin: 3rem auto;
+    }
+    header.entry-header {
+    	display: block;
+    }
+    h2.entry-title {
+    	font-size: 1.8rem;
+    }
+  }
+
+  .panel-image {
+  	display: none;
+  }
+
 }
 
 /* -----------------------------------------------------------------------------
@@ -468,6 +485,33 @@ button {
 
 }
 
+@media (max-width:47.9375em) {
+	.tix_tickets_table thead tr {
+		display: none;
+	}
+
+	.tix_tickets_table tbody .tix-column-description {
+		display: block;
+		width: 100%;
+	}
+
+	.tix_tickets_table tbody .tix-column-price,.tix_tickets_table tbody .tix-column-quantity,.tix_tickets_table tbody .tix-column-remaining {
+		display: block;
+		float: left;
+	}
+
+	.tix_tickets_table tbody .tix-column-price,.tix_tickets_table tbody .tix-column-remaining {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		line-height: 1.5em;
+		width: 30%;
+	}
+
+	.tix_tickets_table tbody .tix-column-quantity {
+		width: 40%;
+	}
+}
+
 /* -----------------------------------------------------------------------------
  * Organizers
  * -------------------------------------------------------------------------- */
@@ -479,6 +523,13 @@ button {
     float: left;
     margin-right: 1rem;
   }
+}
+
+/* -----------------------------------------------------------------------------
+ * Sponsor
+ * -------------------------------------------------------------------------- */
+ .single-wcb_sponsor .single-featured-image-header {
+	padding: 4rem;
 }
 
 

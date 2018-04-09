@@ -463,6 +463,23 @@ h2.widget-title {
   color: #f32d3e;
 }
 
+.home #panel1 .panel-content > .wrap {
+  max-width: 740px;
+  margin: 3rem auto;
+}
+
+.home #panel1 header.entry-header {
+  display: block;
+}
+
+.home #panel1 h2.entry-title {
+  font-size: 1.8rem;
+}
+
+.home .panel-image {
+  display: none;
+}
+
 /* -----------------------------------------------------------------------------
  * Navigation
  * -------------------------------------------------------------------------- */
@@ -525,6 +542,29 @@ button:hover {
   padding: 0.8em 0.4em;
 }
 
+@media (max-width: 47.9375em) {
+  .tix_tickets_table thead tr {
+    display: none;
+  }
+  .tix_tickets_table tbody .tix-column-description {
+    display: block;
+    width: 100%;
+  }
+  .tix_tickets_table tbody .tix-column-price, .tix_tickets_table tbody .tix-column-quantity, .tix_tickets_table tbody .tix-column-remaining {
+    display: block;
+    float: left;
+  }
+  .tix_tickets_table tbody .tix-column-price, .tix_tickets_table tbody .tix-column-remaining {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.5em;
+    width: 30%;
+  }
+  .tix_tickets_table tbody .tix-column-quantity {
+    width: 40%;
+  }
+}
+
 /* -----------------------------------------------------------------------------
  * Organizers
  * -------------------------------------------------------------------------- */
@@ -535,6 +575,13 @@ button:hover {
 .wcorg-organizer-description img {
   float: left;
   margin-right: 1rem;
+}
+
+/* -----------------------------------------------------------------------------
+ * Sponsor
+ * -------------------------------------------------------------------------- */
+.single-wcb_sponsor .single-featured-image-header {
+  padding: 4rem;
 }
 
 /* -----------------------------------------------------------------------------
