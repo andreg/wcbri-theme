@@ -114,7 +114,7 @@
           }
         }
         &.ticket-menu {
-          margin-left: 4rem;
+          //margin-left: 4rem;
           a {
             padding: .4em 1.25em;
             background-color: #FF7F00;
@@ -131,6 +131,12 @@
   .menu-scroll-down {
     top: 0 !important;
     background-color: rgba(255,255,255,.5);
+  }
+}
+
+@media (max-width:768px) {
+  .navigation-top .menu-main-container #top-menu .menu-item.ticket-menu {
+    margin-left: 4rem;
   }
 }
 
