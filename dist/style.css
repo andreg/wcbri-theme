@@ -416,8 +416,13 @@ h2.widget-title {
   text-transform: uppercase;
 }
 
+.home .row-1 {
+  text-align: left;
+}
+
 .home .row-1 h2 {
   color: #f32d3e;
+  text-align: left;
 }
 
 .home .row-2 {
