@@ -537,9 +537,34 @@ button {
 /* -----------------------------------------------------------------------------
  * Sponsor
  * -------------------------------------------------------------------------- */
- .single-wcb_sponsor .single-featured-image-header {
+.single-wcb_sponsor .single-featured-image-header {
 	padding: 4rem;
 }
+
+/* -----------------------------------------------------------------------------
+ * Attendees
+ * -------------------------------------------------------------------------- */
+ #tix-attendees .tix-columns-2 li {
+  width: calc(50% - 20px);
+  height: auto;
+ }
+ #tix-attendees .tix-columns-2 li:nth-child(odd) {
+   margin-right: 20px;
+ }
+
+ #tix-attendees .avatar {
+   width: auto;
+   height: auto;
+ }
+
+ #tix-attendees .tix-attendee-name {
+   font-size: 20px;
+ }
+
+ #tix-attendees .tix-field {
+   margin-left: none;
+   font-size: 16px;
+ }
 
 
 /* -----------------------------------------------------------------------------
