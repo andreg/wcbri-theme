@@ -343,7 +343,7 @@ header.entry-header,
   font-size: 2.5rem;
 }
 
-@media all and (max-width: 425px) {
+@media all and (max-width: 600px) {
   .page .panel-content .entry-title,
   .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
     font-size: 1.5rem;
@@ -609,13 +609,20 @@ button:hover {
   margin-right: 15px;
 }
 
+#tix-attendees .tix-field {
+  margin-left: none;
+  font-size: 16px;
+}
+
 #tix-attendees .tix-attendee-name {
   font-size: 20px;
 }
 
-#tix-attendees .tix-field {
-  margin-left: none;
-  font-size: 16px;
+@media (max-width: 768px) {
+  #tix-attendees .tix-columns-2 li {
+    width: 100%;
+    margin-right: 0 !important;
+  }
 }
 
 /* -----------------------------------------------------------------------------
