@@ -424,6 +424,10 @@ h2.widget-title {
 
 }
 
+.twentyseventeen-front-page article:not(.has-post-thumbnail):not(:first-child) {
+  border: none !important;
+}
+
 /* -----------------------------------------------------------------------------
  * Navigation
  * -------------------------------------------------------------------------- */
